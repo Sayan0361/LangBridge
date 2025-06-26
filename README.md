@@ -4,21 +4,6 @@
 ![MERN Stack](https://img.shields.io/badge/MERN-Stack-61DAFB?style=for-the-badge&logo=react)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-<div align="center">
-  <img src="https://i.imgur.com/JqLQh2m.png" alt="LangBridge Interface" width="800">
-</div>
-
-## 📌 Table of Contents
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Screenshots](#-screenshots)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [API Endpoints](#-api-endpoints)
-- [Deployment](#-deployment)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ## ✨ Features
 
