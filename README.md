@@ -65,10 +65,22 @@
 
 ## 📸 Screenshots
 
-<div align="center">
-  <img src="https://i.imgur.com/chat-screenshot.png" alt="Chat Interface" width="45%">
-  <img src="https://i.imgur.com/video-call.png" alt="Video Call" width="45%">
-  <img src="https://i.imgur.com/onboarding.png" alt="Onboarding" width="45%">
-  <img src="https://i.imgur.com/themes.png" alt="Theme Selector" width="45%">
-</div>
+![Screenshot 2025-06-26 191832](https://github.com/user-attachments/assets/70abd4de-4b9a-4608-a2b7-7fc65f5023d9)
+
+![Screenshot 2025-06-26 191950](https://github.com/user-attachments/assets/9ca14c49-ae73-43db-908e-c199a177e12b)
+
+![Screenshot 2025-06-26 192050](https://github.com/user-attachments/assets/9ba2104b-b640-4330-88c8-e1c93b3b9d86)
+
+![Screenshot 2025-06-26 191843](https://github.com/user-attachments/assets/32468f70-4066-4ab2-84b0-63de140869dd)
+
+![Screenshot 2025-06-26 192112](https://github.com/user-attachments/assets/a0416958-8bb1-46f8-9bee-21989b6c93f5)
+
+![Screenshot 2025-06-26 192211](https://github.com/user-attachments/assets/60d51055-e616-450c-90db-e834867cf0d5)
+
+![Screenshot 2025-06-26 192353](https://github.com/user-attachments/assets/92dddff5-9af2-4659-bfa9-2c071ab8b10b)
+
+
+
+
+
 
