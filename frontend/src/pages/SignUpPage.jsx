@@ -30,7 +30,7 @@ const SignUpPage = () => {
   };
 
   return (
-    <div className='h-screen flex items-center justify-center p-4 sm:p-6 md:p-8' data-theme="forest">
+    <div className='h-screen flex items-center justify-center p-4 sm:p-6 md:p-8' data-theme="dark">
       <div className='border border-primary/25 flex flex-col lg:flex-row w-full max-w-5xl mx-auto bg-base-100 rounded-xl shadow-lg overflow-hidden'>
 
       {/* Sign Up form left side */}
@@ -55,7 +55,7 @@ const SignUpPage = () => {
             <form onSubmit={handleSignUp}>
               <div className='space-y-4'>
                 <div>
-                  <h2 className='text-xl text-green-400 font-semibold'>
+                  <h2 className='text-2xl text-primary font-semibold'>
                     Create an Account
                   </h2>
                   <p>
@@ -67,7 +67,7 @@ const SignUpPage = () => {
                 <div className='space-y-3'>
                   <div className='form-control w-full'>
                     <label className='label'>
-                      <span className='label-text text-green-400 font-semibold'>Full Name</span>
+                      <span className='label-text font-semibold'>Full Name</span>
                     </label>
                     <input type="text" placeholder='Sayan Sen' className='input input-bordered w-full' 
                       value={signupData.fullName} 
@@ -79,7 +79,7 @@ const SignUpPage = () => {
                   {/* Email Label */}
                   <div className='form-control w-full'>
                     <label className='label'>
-                      <span className='label-text text-green-400 font-semibold'>Email</span>
+                      <span className='label-text font-semibold'>Email</span>
                     </label>
                     <input type="email" placeholder='sayansen@gmail.com' className='input input-bordered w-full' 
                       value={signupData.email} 
@@ -91,7 +91,7 @@ const SignUpPage = () => {
                   {/* Password */}
                   <div className='form-control w-full'>
                     <label className='label'>
-                      <span className='label-text text-green-400 font-semibold'>Password</span>
+                      <span className='label-text font-semibold'>Password</span>
                     </label>
                     <input type="password" placeholder='********' className='input input-bordered w-full' 
                       value={signupData.password} 
@@ -122,7 +122,7 @@ const SignUpPage = () => {
                 </div>
 
                 {/* Create Account */}
-                <button type="submit" className='btn btn-primary w-full hover:bg-green-700'>
+                <button type="submit" className='btn btn-primary w-full hover-primary'>
                   {isPending ? "Signing up...":"Create Account"}
                 </button>
                 
@@ -152,15 +152,13 @@ const SignUpPage = () => {
 
             {/* Text below the image */}
             <div className='text-center space-y-3 mt-6'>
-              <h2 className='text-xl font-semibold text-ellipsis text-green-500'>
+              <h2 className='text-xl font-semibold text-ellipsis text-primary'>
                 Connect with language partners worldwide
               </h2>
               <p className='opacity-70 italic'>
                 Practice conversations, make friends and improve your language skills
               </p>
             </div>
-
-
           </div>
         </div>
       </div>

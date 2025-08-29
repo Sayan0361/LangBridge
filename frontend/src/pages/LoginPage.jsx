@@ -24,7 +24,7 @@ const LoginPage = () => {
     loginMutation(loginData);
   }
   return (
-    <div className='h-screen flex items-center justify-center p-4 sm:p-6 md:p-8' data-theme="forest">
+    <div className='h-screen flex items-center justify-center p-4 sm:p-6 md:p-8' data-theme="dark">
       <div className="border border-primary/25 flex flex-col lg:flex-row w-full max-w-5xl mx-auto bg-base-100 rounded-xl shadow-lg overflow-hidden">
         {/* Login Form Section */}
         <div className="w-full lg:w-1/2 p-4 sm:p-8 flex flex-col">
@@ -57,7 +57,7 @@ const LoginPage = () => {
               {/* Heading */}
               <div className="space-y-4">
                 <div>
-                  <h2 className="text-2xl font-semibold">
+                  <h2 className="text-2xl text-primary font-semibold">
                     Welcome Back
                   </h2>
                   <p className="text-sm opacity-70">
@@ -132,7 +132,7 @@ const LoginPage = () => {
           </div>
 
           <div className="text-center space-y-3 mt-6">
-            <h2 className="text-xl font-semibold">Connect with language partners worldwide</h2>
+            <h2 className="text-xl text-primary font-semibold">Connect with language partners worldwide</h2>
             <p className="opacity-70 italic">
               Practice conversations, make friends, and improve your language skills together
             </p>
