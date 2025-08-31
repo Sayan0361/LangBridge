@@ -32,11 +32,18 @@ const HomePage = () => {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-primary from-base-100 via-base-200 to-base-300">
+    <div className="min-h-screen bg-gradient-to-primary from-base-100 via-base-200 to-base-300 relative overflow-hidden">
+      {/* Gradient Glowing Background Elements */}
+      <div className="absolute top-0 w-full h-full overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-[100px] opacity-70 animate-pulse"></div>
+        <div className="absolute bottom-1/3 -right-20 w-80 h-80 bg-secondary/20 rounded-full blur-[100px] opacity-70 animate-pulse animation-delay-2000"></div>
+        <div className="absolute top-2/3 left-1/4 w-64 h-64 bg-accent/20 rounded-full blur-[90px] opacity-60 animate-pulse animation-delay-4000"></div>
+      </div>
+      
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-primary from-primary/5 via-secondary/5 to-accent/5">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24 relative z-10">
           <div className="text-center space-y-8 sm:space-y-12">
             {/* Main Hero Content */}
             <div className="space-y-6">
@@ -48,7 +55,7 @@ const HomePage = () => {
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight">
-                <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent italic">
                   Master Languages
                 </span>
                 <br />
@@ -151,7 +158,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12 relative z-10">
         <div className="space-y-8 sm:space-y-12 lg:space-y-16">
           {/* Learning Features Section */}
           <section className="space-y-6 sm:space-y-8">

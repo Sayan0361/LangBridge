@@ -25,7 +25,7 @@ const Navbar = () => {
                     className="h-8 rounded-full w-auto object-contain transition-transform duration-300"
                   />
                 </div>
-                <span className="text-2xl font-bold font-mono italic bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider">
+                <span className="text-xl font-bold italic bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-wider">
                   LangBridge
                 </span>
               </Link>

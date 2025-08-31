@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:slnt,wght,CRSV,ELXP@-2,100..900,1,0..100&family=Cossette+Titre:wght@400;700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  font-family: 'Cossette Titre', sans-serif;
+  letter-spacing: 0.07em;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse {
+  animation: pulse 6s ease-in-out infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
 
 .str-chat__channel {
   display: flex;
